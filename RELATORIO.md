@@ -129,23 +129,23 @@ docker push leonardocmuniz/ufo-tracker:latest
 Abaixo estão os links para os logs de execução de cada workflow diretamente no GitHub, acompanhados das evidências visuais (prints) armazenadas na pasta `/evidencias`.
 
 * **Hello Workflow (`hello.yml`)**
-  * **Link da execução:** [Acessar Log no GitHub]()
-  * **Evidência:** [Acessar Evidência em Print](./evidencias/)
+  * **Link da execução:** [Acessar Log no GitHub](./evidencias/logs/hello)
+  * **Evidência:** [Acessar Evidência em Print](./evidencias/say-hello-workflow.png)
 
 * **Tests Workflow (`tests.yml`)**
-  * **Link da execução:** [Acessar Log no GitHub]()
-  * **Evidência:** [Acessar Evidência em Print](./evidencias/)
+  * **Link da execução:** [Acessar Log no GitHub](./evidencias/logs/tests)
+  * **Evidência:** [Acessar Evidência em Print](./evidencias/test-job-workflow.png)
 
 * **Maven CI Workflow (`maven-ci.yml`)**
 
   **Nota:** Utilizado Maven no lugar do Gradle, conforme permissão no enunciado.
-  * **Link da execução:** [Acessar Log no GitHub]()
-  * **Evidência:** [Acessar Evidência em Print](./evidencias/)
+  * **Link da execução:** [Acessar Log no GitHub](./evidencias/logs/maven-ci)
+  * **Evidência:** [Acessar Evidência em Print](./evidencias/maven-build-workflow.png)
 
 * **Environment Variables Demo (`env-demo.yml`)**
-  * **Link da execução:** [Acessar Log no GitHub]()
-  * **Evidência:** [Acessar Evidência em Print](./evidencias/)
+  * **Link da execução:** [Acessar Log no GitHub](./evidencias/logs/env-demo)
+  * **Evidência:** [Acessar Evidência em Print](./evidencias/env-demo-workflow.png)
 
 * **Secret Demo (`secret-demo.yml`)**
-  * **Link da execução:** [Acessar Log no GitHub]()
-  * **Evidência:** [Acessar Evidência em Print](./evidencias/)
+  * **Link da execução:** [Acessar Log no GitHub](./evidencias/logs/secret-demo)
+  * **Evidência:** [Acessar Evidência em Print](./evidencias/secret-demo-workflow.png)
