@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ufotracker
+  namespace: ufology
+  labels:
+    app: ufotracker
+    tier: backend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: ufotracker
+      tier: backend
+  template:
+    metadata:
+      labels:
+        app: ufotracker
+        tier: backend
+    spec:
+      containers:
+      - name: ufotracker
+        image: leonardocmuniz/ufo-tracker:1.0
+        ports:
+        - containerPort: 8080
+        env:
+        - name: DB_HOST
+          value: postgres
+        - name: REDIS_HOST
+          value: redis
+        - name: POSTGRES_DB
+          valueFrom:
+            configMapKeyRef:
+              name: app-config
+              key: POSTGRES_DB
+        - name: POSTGRES_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: db-secret
+              key: POSTGRES_PASSWORD
+        resources:
+          requests:
+            cpu: 250m
+            memory: 256Mi
+          limits:
+            cpu: 500m
+            memory: 512Mi
