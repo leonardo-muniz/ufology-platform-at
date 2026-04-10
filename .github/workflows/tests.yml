@@ -1,0 +1,13 @@
+name: Tests Workflow
+
+on:
+  pull_request:
+
+jobs:
+  test-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Code Checkout
+        uses: actions/checkout@v4
+      - name: Run Tests
+        run: echo "Running tests..."
