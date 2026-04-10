@@ -1,0 +1,21 @@
+name: Environment Demo Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  env-demo-job:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    # environment: staging
+    env:
+      DEPLOY_ENV: staging
+    steps:
+      - name: Show Environment Variable
+        run: |
+          echo "Deploying to environment: $DEPLOY_ENV"
