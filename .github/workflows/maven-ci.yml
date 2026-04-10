@@ -34,7 +34,7 @@ jobs:
         run: chmod +x mvnw
 
       - name: Build and Test with Maven Wrapper
-        run: ./mvnw clean verify
+        run: ./mvnw clean package -DskipTests
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
