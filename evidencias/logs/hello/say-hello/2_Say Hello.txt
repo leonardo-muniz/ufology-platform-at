@@ -1,0 +1,5 @@
+﻿2026-04-10T21:40:02.0773953Z ##[group]Run echo "Hello CI/CD"
+2026-04-10T21:40:02.0774634Z [36;1mecho "Hello CI/CD"[0m
+2026-04-10T21:40:02.1120882Z shell: /usr/bin/bash -e {0}
+2026-04-10T21:40:02.1122149Z ##[endgroup]
+2026-04-10T21:40:02.1320359Z Hello CI/CD

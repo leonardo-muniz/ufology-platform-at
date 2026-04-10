@@ -1,0 +1,36 @@
+﻿2026-04-10T21:40:02.7817352Z Current runner version: '2.333.1'
+2026-04-10T21:40:02.7842500Z ##[group]Runner Image Provisioner
+2026-04-10T21:40:02.7843373Z Hosted Compute Agent
+2026-04-10T21:40:02.7843955Z Version: 20260213.493
+2026-04-10T21:40:02.7844621Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+2026-04-10T21:40:02.7845650Z Build Date: 2026-02-13T00:28:41Z
+2026-04-10T21:40:02.7846327Z Worker ID: {15679ef3-e1fc-460b-af96-b0b7ff60c36c}
+2026-04-10T21:40:02.7846979Z Azure Region: westcentralus
+2026-04-10T21:40:02.7847698Z ##[endgroup]
+2026-04-10T21:40:02.7849075Z ##[group]Operating System
+2026-04-10T21:40:02.7849663Z Ubuntu
+2026-04-10T21:40:02.7850198Z 24.04.4
+2026-04-10T21:40:02.7850677Z LTS
+2026-04-10T21:40:02.7851139Z ##[endgroup]
+2026-04-10T21:40:02.7851714Z ##[group]Runner Image
+2026-04-10T21:40:02.7852281Z Image: ubuntu-24.04
+2026-04-10T21:40:02.7852761Z Version: 20260406.80.1
+2026-04-10T21:40:02.7854021Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260406.80/images/ubuntu/Ubuntu2404-Readme.md
+2026-04-10T21:40:02.7855631Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260406.80
+2026-04-10T21:40:02.7856647Z ##[endgroup]
+2026-04-10T21:40:02.7857591Z ##[group]GITHUB_TOKEN Permissions
+2026-04-10T21:40:02.7859551Z Contents: read
+2026-04-10T21:40:02.7860123Z Metadata: read
+2026-04-10T21:40:02.7860589Z ##[endgroup]
+2026-04-10T21:40:02.7862883Z Secret source: Actions
+2026-04-10T21:40:02.7863562Z Prepare workflow directory
+2026-04-10T21:40:02.8276095Z Prepare all required actions
+2026-04-10T21:40:02.8329980Z Complete job name: env-demo-job
+2026-04-10T21:40:02.9025748Z ##[group]Run echo "Deploying to environment: $DEPLOY_ENV"
+2026-04-10T21:40:02.9026823Z [36;1mecho "Deploying to environment: $DEPLOY_ENV"[0m
+2026-04-10T21:40:02.9430433Z shell: /usr/bin/bash -e {0}
+2026-04-10T21:40:02.9431931Z env:
+2026-04-10T21:40:02.9432737Z   DEPLOY_ENV: staging
+2026-04-10T21:40:02.9433768Z ##[endgroup]
+2026-04-10T21:40:02.9807038Z Deploying to environment: staging
+2026-04-10T21:40:02.9916342Z Cleaning up orphan processes

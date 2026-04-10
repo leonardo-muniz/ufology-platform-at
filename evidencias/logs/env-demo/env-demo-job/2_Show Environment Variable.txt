@@ -1,0 +1,7 @@
+﻿2026-04-10T21:40:02.9025712Z ##[group]Run echo "Deploying to environment: $DEPLOY_ENV"
+2026-04-10T21:40:02.9026818Z [36;1mecho "Deploying to environment: $DEPLOY_ENV"[0m
+2026-04-10T21:40:02.9430384Z shell: /usr/bin/bash -e {0}
+2026-04-10T21:40:02.9431911Z env:
+2026-04-10T21:40:02.9432731Z   DEPLOY_ENV: staging
+2026-04-10T21:40:02.9433760Z ##[endgroup]
+2026-04-10T21:40:02.9806986Z Deploying to environment: staging

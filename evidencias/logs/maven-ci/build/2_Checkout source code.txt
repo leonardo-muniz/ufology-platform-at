@@ -1,0 +1,72 @@
+﻿2026-04-10T21:40:03.8481133Z ##[group]Run actions/checkout@v4
+2026-04-10T21:40:03.8482449Z with:
+2026-04-10T21:40:03.8483307Z   repository: leonardo-muniz/ufology-platform-at
+2026-04-10T21:40:03.8484922Z   token: ***
+2026-04-10T21:40:03.8485664Z   ssh-strict: true
+2026-04-10T21:40:03.8486420Z   ssh-user: git
+2026-04-10T21:40:03.8487182Z   persist-credentials: true
+2026-04-10T21:40:03.8488068Z   clean: true
+2026-04-10T21:40:03.8488846Z   sparse-checkout-cone-mode: true
+2026-04-10T21:40:03.8489788Z   fetch-depth: 1
+2026-04-10T21:40:03.8490528Z   fetch-tags: false
+2026-04-10T21:40:03.8491322Z   show-progress: true
+2026-04-10T21:40:03.8492102Z   lfs: false
+2026-04-10T21:40:03.8492810Z   submodules: false
+2026-04-10T21:40:03.8493593Z   set-safe-directory: true
+2026-04-10T21:40:03.8494883Z ##[endgroup]
+2026-04-10T21:40:03.9633583Z Syncing repository: leonardo-muniz/ufology-platform-at
+2026-04-10T21:40:03.9636759Z ##[group]Getting Git version info
+2026-04-10T21:40:03.9638361Z Working directory is '/home/runner/work/ufology-platform-at/ufology-platform-at'
+2026-04-10T21:40:03.9640561Z [command]/usr/bin/git version
+2026-04-10T21:40:03.9674478Z git version 2.53.0
+2026-04-10T21:40:03.9706112Z ##[endgroup]
+2026-04-10T21:40:03.9730020Z Temporarily overriding HOME='/home/runner/work/_temp/95fd1b2b-bb4e-4524-907c-e437760df587' before making global git config changes
+2026-04-10T21:40:03.9735054Z Adding repository directory to the temporary git global config as a safe directory
+2026-04-10T21:40:03.9739372Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/ufology-platform-at/ufology-platform-at
+2026-04-10T21:40:03.9771440Z Deleting the contents of '/home/runner/work/ufology-platform-at/ufology-platform-at'
+2026-04-10T21:40:03.9775632Z ##[group]Initializing the repository
+2026-04-10T21:40:03.9779958Z [command]/usr/bin/git init /home/runner/work/ufology-platform-at/ufology-platform-at
+2026-04-10T21:40:03.9852195Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-04-10T21:40:03.9856194Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-04-10T21:40:03.9859456Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-04-10T21:40:03.9861945Z hint: call:
+2026-04-10T21:40:03.9863116Z hint:
+2026-04-10T21:40:03.9865193Z hint: 	git config --global init.defaultBranch <name>
+2026-04-10T21:40:03.9867236Z hint:
+2026-04-10T21:40:03.9869140Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-04-10T21:40:03.9872269Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-04-10T21:40:03.9873999Z hint:
+2026-04-10T21:40:03.9874989Z hint: 	git branch -m <name>
+2026-04-10T21:40:03.9875908Z hint:
+2026-04-10T21:40:03.9877098Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-04-10T21:40:03.9880789Z Initialized empty Git repository in /home/runner/work/ufology-platform-at/ufology-platform-at/.git/
+2026-04-10T21:40:03.9885503Z [command]/usr/bin/git remote add origin https://github.com/leonardo-muniz/ufology-platform-at
+2026-04-10T21:40:03.9898900Z ##[endgroup]
+2026-04-10T21:40:03.9901230Z ##[group]Disabling automatic garbage collection
+2026-04-10T21:40:03.9903450Z [command]/usr/bin/git config --local gc.auto 0
+2026-04-10T21:40:03.9932741Z ##[endgroup]
+2026-04-10T21:40:03.9935244Z ##[group]Setting up auth
+2026-04-10T21:40:03.9940690Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-04-10T21:40:03.9972997Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-04-10T21:40:04.0248333Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-04-10T21:40:04.0281656Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-04-10T21:40:04.0508298Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-04-10T21:40:04.0544583Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-04-10T21:40:04.0783718Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-04-10T21:40:04.0822030Z ##[endgroup]
+2026-04-10T21:40:04.0824453Z ##[group]Fetching the repository
+2026-04-10T21:40:04.0834410Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +b5424dd5ee5e78b4da157352eb09c1dfef0a220f:refs/remotes/origin/main
+2026-04-10T21:40:04.3290035Z From https://github.com/leonardo-muniz/ufology-platform-at
+2026-04-10T21:40:04.3291808Z  * [new ref]         b5424dd5ee5e78b4da157352eb09c1dfef0a220f -> origin/main
+2026-04-10T21:40:04.3320824Z ##[endgroup]
+2026-04-10T21:40:04.3323020Z ##[group]Determining the checkout info
+2026-04-10T21:40:04.3325818Z ##[endgroup]
+2026-04-10T21:40:04.3329244Z [command]/usr/bin/git sparse-checkout disable
+2026-04-10T21:40:04.3367950Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-04-10T21:40:04.3395382Z ##[group]Checking out the ref
+2026-04-10T21:40:04.3399069Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-04-10T21:40:04.3483916Z Switched to a new branch 'main'
+2026-04-10T21:40:04.3486340Z branch 'main' set up to track 'origin/main'.
+2026-04-10T21:40:04.3532390Z ##[endgroup]
+2026-04-10T21:40:04.3536486Z [command]/usr/bin/git log -1 --format=%H
+2026-04-10T21:40:04.3560384Z b5424dd5ee5e78b4da157352eb09c1dfef0a220f

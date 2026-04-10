@@ -1,0 +1,140 @@
+﻿2026-04-10T21:37:33.1356969Z Current runner version: '2.333.1'
+2026-04-10T21:37:33.1391579Z ##[group]Runner Image Provisioner
+2026-04-10T21:37:33.1393086Z Hosted Compute Agent
+2026-04-10T21:37:33.1394060Z Version: 20260213.493
+2026-04-10T21:37:33.1395157Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+2026-04-10T21:37:33.1396336Z Build Date: 2026-02-13T00:28:41Z
+2026-04-10T21:37:33.1397552Z Worker ID: {abf8996e-7aaf-4d21-93d5-e7a099efe9e9}
+2026-04-10T21:37:33.1398942Z Azure Region: eastus2
+2026-04-10T21:37:33.1399999Z ##[endgroup]
+2026-04-10T21:37:33.1403043Z ##[group]Operating System
+2026-04-10T21:37:33.1404063Z Ubuntu
+2026-04-10T21:37:33.1404881Z 24.04.4
+2026-04-10T21:37:33.1405804Z LTS
+2026-04-10T21:37:33.1406721Z ##[endgroup]
+2026-04-10T21:37:33.1407622Z ##[group]Runner Image
+2026-04-10T21:37:33.1408632Z Image: ubuntu-24.04
+2026-04-10T21:37:33.1409509Z Version: 20260406.80.1
+2026-04-10T21:37:33.1411496Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260406.80/images/ubuntu/Ubuntu2404-Readme.md
+2026-04-10T21:37:33.1414327Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260406.80
+2026-04-10T21:37:33.1415995Z ##[endgroup]
+2026-04-10T21:37:33.1417768Z ##[group]GITHUB_TOKEN Permissions
+2026-04-10T21:37:33.1420358Z Contents: read
+2026-04-10T21:37:33.1421248Z Metadata: read
+2026-04-10T21:37:33.1422146Z Packages: read
+2026-04-10T21:37:33.1423312Z ##[endgroup]
+2026-04-10T21:37:33.1426253Z Secret source: Actions
+2026-04-10T21:37:33.1427477Z Prepare workflow directory
+2026-04-10T21:37:33.1903297Z Prepare all required actions
+2026-04-10T21:37:33.1959920Z Getting action download info
+2026-04-10T21:37:33.4724355Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+2026-04-10T21:37:33.6772569Z Complete job name: test-job
+2026-04-10T21:37:33.7451936Z ##[group]Run actions/checkout@v4
+2026-04-10T21:37:33.7453244Z with:
+2026-04-10T21:37:33.7453746Z   repository: leonardo-muniz/ufology-platform-at
+2026-04-10T21:37:33.7454502Z   token: ***
+2026-04-10T21:37:33.7454918Z   ssh-strict: true
+2026-04-10T21:37:33.7455327Z   ssh-user: git
+2026-04-10T21:37:33.7455737Z   persist-credentials: true
+2026-04-10T21:37:33.7456213Z   clean: true
+2026-04-10T21:37:33.7456627Z   sparse-checkout-cone-mode: true
+2026-04-10T21:37:33.7457136Z   fetch-depth: 1
+2026-04-10T21:37:33.7457686Z   fetch-tags: false
+2026-04-10T21:37:33.7458286Z   show-progress: true
+2026-04-10T21:37:33.7458757Z   lfs: false
+2026-04-10T21:37:33.7459282Z   submodules: false
+2026-04-10T21:37:33.7459711Z   set-safe-directory: true
+2026-04-10T21:37:33.7460407Z ##[endgroup]
+2026-04-10T21:37:33.8517735Z Syncing repository: leonardo-muniz/ufology-platform-at
+2026-04-10T21:37:33.8519566Z ##[group]Getting Git version info
+2026-04-10T21:37:33.8520443Z Working directory is '/home/runner/work/ufology-platform-at/ufology-platform-at'
+2026-04-10T21:37:33.8521531Z [command]/usr/bin/git version
+2026-04-10T21:37:33.8559106Z git version 2.53.0
+2026-04-10T21:37:33.8584438Z ##[endgroup]
+2026-04-10T21:37:33.8597994Z Temporarily overriding HOME='/home/runner/work/_temp/c73aa6f4-b722-4cd5-aecb-fcb97e22fd92' before making global git config changes
+2026-04-10T21:37:33.8599402Z Adding repository directory to the temporary git global config as a safe directory
+2026-04-10T21:37:33.8603151Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/ufology-platform-at/ufology-platform-at
+2026-04-10T21:37:33.8632903Z Deleting the contents of '/home/runner/work/ufology-platform-at/ufology-platform-at'
+2026-04-10T21:37:33.8636243Z ##[group]Initializing the repository
+2026-04-10T21:37:33.8640084Z [command]/usr/bin/git init /home/runner/work/ufology-platform-at/ufology-platform-at
+2026-04-10T21:37:33.8723504Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-04-10T21:37:33.8725138Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-04-10T21:37:33.8726292Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-04-10T21:37:33.8727277Z hint: call:
+2026-04-10T21:37:33.8727651Z hint:
+2026-04-10T21:37:33.8728144Z hint: 	git config --global init.defaultBranch <name>
+2026-04-10T21:37:33.8728747Z hint:
+2026-04-10T21:37:33.8729309Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-04-10T21:37:33.8730301Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-04-10T21:37:33.8731407Z hint:
+2026-04-10T21:37:33.8731811Z hint: 	git branch -m <name>
+2026-04-10T21:37:33.8732506Z hint:
+2026-04-10T21:37:33.8733136Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-04-10T21:37:33.8734251Z Initialized empty Git repository in /home/runner/work/ufology-platform-at/ufology-platform-at/.git/
+2026-04-10T21:37:33.8736584Z [command]/usr/bin/git remote add origin https://github.com/leonardo-muniz/ufology-platform-at
+2026-04-10T21:37:33.8764962Z ##[endgroup]
+2026-04-10T21:37:33.8766067Z ##[group]Disabling automatic garbage collection
+2026-04-10T21:37:33.8768633Z [command]/usr/bin/git config --local gc.auto 0
+2026-04-10T21:37:33.8795553Z ##[endgroup]
+2026-04-10T21:37:33.8796582Z ##[group]Setting up auth
+2026-04-10T21:37:33.8802100Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-04-10T21:37:33.8830725Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-04-10T21:37:33.9099317Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-04-10T21:37:33.9126976Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-04-10T21:37:33.9334943Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-04-10T21:37:33.9371235Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-04-10T21:37:33.9581118Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-04-10T21:37:33.9613767Z ##[endgroup]
+2026-04-10T21:37:33.9614873Z ##[group]Fetching the repository
+2026-04-10T21:37:33.9622609Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +463c1414480f05a3f457bd7c408c97886564d330:refs/remotes/pull/1/merge
+2026-04-10T21:37:34.1490844Z From https://github.com/leonardo-muniz/ufology-platform-at
+2026-04-10T21:37:34.1493187Z  * [new ref]         463c1414480f05a3f457bd7c408c97886564d330 -> pull/1/merge
+2026-04-10T21:37:34.1522125Z ##[endgroup]
+2026-04-10T21:37:34.1524672Z ##[group]Determining the checkout info
+2026-04-10T21:37:34.1526638Z ##[endgroup]
+2026-04-10T21:37:34.1531084Z [command]/usr/bin/git sparse-checkout disable
+2026-04-10T21:37:34.1568994Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-04-10T21:37:34.1596065Z ##[group]Checking out the ref
+2026-04-10T21:37:34.1598495Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/1/merge
+2026-04-10T21:37:34.1673265Z Note: switching to 'refs/remotes/pull/1/merge'.
+2026-04-10T21:37:34.1674808Z 
+2026-04-10T21:37:34.1677795Z You are in 'detached HEAD' state. You can look around, make experimental
+2026-04-10T21:37:34.1681002Z changes and commit them, and you can discard any commits you make in this
+2026-04-10T21:37:34.1683992Z state without impacting any branches by switching back to a branch.
+2026-04-10T21:37:34.1686154Z 
+2026-04-10T21:37:34.1687388Z If you want to create a new branch to retain commits you create, you may
+2026-04-10T21:37:34.1689488Z do so (now or later) by using -c with the switch command. Example:
+2026-04-10T21:37:34.1690663Z 
+2026-04-10T21:37:34.1691165Z   git switch -c <new-branch-name>
+2026-04-10T21:37:34.1691974Z 
+2026-04-10T21:37:34.1692759Z Or undo this operation with:
+2026-04-10T21:37:34.1694280Z 
+2026-04-10T21:37:34.1694790Z   git switch -
+2026-04-10T21:37:34.1699739Z 
+2026-04-10T21:37:34.1700871Z Turn off this advice by setting config variable advice.detachedHead to false
+2026-04-10T21:37:34.1702686Z 
+2026-04-10T21:37:34.1704218Z HEAD is now at 463c141 Merge ad4a9c7c9f2d5636bb2e81217f7ae915d48e557f into 04f3a06b8075d5f9477a8e0509439040afb78e48
+2026-04-10T21:37:34.1729407Z ##[endgroup]
+2026-04-10T21:37:34.1731418Z [command]/usr/bin/git log -1 --format=%H
+2026-04-10T21:37:34.1751716Z 463c1414480f05a3f457bd7c408c97886564d330
+2026-04-10T21:37:34.1974248Z ##[group]Run echo "Running tests..."
+2026-04-10T21:37:34.1974980Z [36;1mecho "Running tests..."[0m
+2026-04-10T21:37:34.2000629Z shell: /usr/bin/bash -e {0}
+2026-04-10T21:37:34.2001180Z ##[endgroup]
+2026-04-10T21:37:34.2070876Z Running tests...
+2026-04-10T21:37:34.2197052Z Post job cleanup.
+2026-04-10T21:37:34.3148169Z [command]/usr/bin/git version
+2026-04-10T21:37:34.3186022Z git version 2.53.0
+2026-04-10T21:37:34.3230545Z Temporarily overriding HOME='/home/runner/work/_temp/3c05ae93-2e58-4a9d-81ee-2310d797c8c0' before making global git config changes
+2026-04-10T21:37:34.3232384Z Adding repository directory to the temporary git global config as a safe directory
+2026-04-10T21:37:34.3244145Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/ufology-platform-at/ufology-platform-at
+2026-04-10T21:37:34.3280543Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-04-10T21:37:34.3313406Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-04-10T21:37:34.3536745Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-04-10T21:37:34.3557427Z http.https://github.com/.extraheader
+2026-04-10T21:37:34.3570503Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-04-10T21:37:34.3600088Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-04-10T21:37:34.3815291Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-04-10T21:37:34.3846107Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-04-10T21:37:34.4169670Z Cleaning up orphan processes
+2026-04-10T21:37:34.4553440Z ##[warning]Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@v4. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

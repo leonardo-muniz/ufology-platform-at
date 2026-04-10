@@ -1,0 +1,8 @@
+2026-04-10T21:39:59.6740000Z Requested labels: ubuntu-latest
+2026-04-10T21:39:59.6740000Z Job defined at: leonardo-muniz/ufology-platform-at/.github/workflows/hello.yml@refs/heads/main
+2026-04-10T21:39:59.6740000Z Waiting for a runner to pick up this job...
+2026-04-10T21:39:59.6730000Z Evaluating say-hello.if
+2026-04-10T21:39:59.6730000Z Evaluating: success()
+2026-04-10T21:39:59.6730000Z Result: true
+2026-04-10T21:40:00.1020000Z Job is waiting for a hosted runner to come online.
+2026-04-10T21:40:00.1020000Z Job is about to start running on the hosted runner: GitHub Actions 1000000051

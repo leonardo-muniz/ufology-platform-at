@@ -1,0 +1,62 @@
+﻿2026-04-10T21:40:06.2082437Z ##[group]Run ./mvnw clean package -DskipTests
+2026-04-10T21:40:06.2082909Z [36;1m./mvnw clean package -DskipTests[0m
+2026-04-10T21:40:06.2105456Z shell: /usr/bin/bash -e {0}
+2026-04-10T21:40:06.2105805Z env:
+2026-04-10T21:40:06.2106157Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.10-7/x64
+2026-04-10T21:40:06.2106713Z   JAVA_HOME_21_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.10-7/x64
+2026-04-10T21:40:06.2107131Z ##[endgroup]
+2026-04-10T21:40:09.3078484Z [INFO] Scanning for projects...
+2026-04-10T21:40:09.5740393Z [INFO] 
+2026-04-10T21:40:09.5741811Z [INFO] ----------------------< br.com.area51:ufoTracker >----------------------
+2026-04-10T21:40:09.5742927Z [INFO] Building ufoTracker 0.0.1-SNAPSHOT
+2026-04-10T21:40:09.5743752Z [INFO]   from pom.xml
+2026-04-10T21:40:09.5745066Z [INFO] --------------------------------[ jar ]---------------------------------
+2026-04-10T21:40:10.0786196Z [INFO] 
+2026-04-10T21:40:10.0806307Z [INFO] --- clean:3.4.1:clean (default-clean) @ ufoTracker ---
+2026-04-10T21:40:10.1817430Z [INFO] 
+2026-04-10T21:40:10.1818586Z [INFO] --- resources:3.3.1:resources (default-resources) @ ufoTracker ---
+2026-04-10T21:40:10.2606075Z [INFO] Copying 1 resource from src/main/resources to target/classes
+2026-04-10T21:40:10.2742357Z [INFO] Copying 0 resource from src/main/resources to target/classes
+2026-04-10T21:40:10.2748446Z [INFO] 
+2026-04-10T21:40:10.2785881Z [INFO] --- compiler:3.14.0:compile (default-compile) @ ufoTracker ---
+2026-04-10T21:40:10.4843839Z [INFO] Recompiling the module because of changed source code.
+2026-04-10T21:40:10.5090309Z [INFO] Compiling 14 source files with javac [debug parameters release 21] to target/classes
+2026-04-10T21:40:12.5941030Z [INFO] Annotation processing is enabled because one or more processors were found
+2026-04-10T21:40:12.5942476Z   on the class path. A future release of javac may disable annotation processing
+2026-04-10T21:40:12.5965572Z   unless at least one processor is specified by name (-processor), or a search
+2026-04-10T21:40:12.5980339Z   path is specified (--processor-path, --processor-module-path), or annotation
+2026-04-10T21:40:12.5981602Z   processing is enabled explicitly (-proc:only, -proc:full).
+2026-04-10T21:40:12.5982491Z   Use -Xlint:-options to suppress this message.
+2026-04-10T21:40:12.6010852Z   Use -proc:none to disable annotation processing.
+2026-04-10T21:40:12.6013744Z [WARNING] /home/runner/work/ufology-platform-at/ufology-platform-at/app-source/devops2026-ufoTracker/src/main/java/br/com/area51/ufoTracker/model/jpa/CasoUFO.java:[36,24] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+2026-04-10T21:40:12.6018862Z [WARNING] /home/runner/work/ufology-platform-at/ufology-platform-at/app-source/devops2026-ufoTracker/src/main/java/br/com/area51/ufoTracker/model/jpa/CasoUFO.java:[40,26] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+2026-04-10T21:40:12.6021631Z [INFO] 
+2026-04-10T21:40:12.6025482Z [INFO] --- resources:3.3.1:testResources (default-testResources) @ ufoTracker ---
+2026-04-10T21:40:12.6027653Z [INFO] skip non existing resourceDirectory /home/runner/work/ufology-platform-at/ufology-platform-at/app-source/devops2026-ufoTracker/src/test/resources
+2026-04-10T21:40:12.6029125Z [INFO] 
+2026-04-10T21:40:12.6029946Z [INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ ufoTracker ---
+2026-04-10T21:40:12.6148735Z [INFO] Recompiling the module because of changed dependency.
+2026-04-10T21:40:12.6180288Z [INFO] Compiling 1 source file with javac [debug parameters release 21] to target/test-classes
+2026-04-10T21:40:13.1071148Z [INFO] Annotation processing is enabled because one or more processors were found
+2026-04-10T21:40:13.1075539Z   on the class path. A future release of javac may disable annotation processing
+2026-04-10T21:40:13.1076886Z   unless at least one processor is specified by name (-processor), or a search
+2026-04-10T21:40:13.1077828Z   path is specified (--processor-path, --processor-module-path), or annotation
+2026-04-10T21:40:13.1078650Z   processing is enabled explicitly (-proc:only, -proc:full).
+2026-04-10T21:40:13.1079296Z   Use -Xlint:-options to suppress this message.
+2026-04-10T21:40:13.1079941Z   Use -proc:none to disable annotation processing.
+2026-04-10T21:40:13.1085451Z [INFO] 
+2026-04-10T21:40:13.1086113Z [INFO] --- surefire:3.5.3:test (default-test) @ ufoTracker ---
+2026-04-10T21:40:13.2136542Z [INFO] Tests are skipped.
+2026-04-10T21:40:13.2137667Z [INFO] 
+2026-04-10T21:40:13.2138376Z [INFO] --- jar:3.4.2:jar (default-jar) @ ufoTracker ---
+2026-04-10T21:40:13.4932144Z [INFO] Building jar: /home/runner/work/ufology-platform-at/ufology-platform-at/app-source/devops2026-ufoTracker/target/ufoTracker-0.0.1-SNAPSHOT.jar
+2026-04-10T21:40:13.5431498Z [INFO] 
+2026-04-10T21:40:13.5435206Z [INFO] --- spring-boot:3.5.4:repackage (repackage) @ ufoTracker ---
+2026-04-10T21:40:13.9560656Z [INFO] Replacing main artifact /home/runner/work/ufology-platform-at/ufology-platform-at/app-source/devops2026-ufoTracker/target/ufoTracker-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+2026-04-10T21:40:13.9563158Z [INFO] The original artifact has been renamed to /home/runner/work/ufology-platform-at/ufology-platform-at/app-source/devops2026-ufoTracker/target/ufoTracker-0.0.1-SNAPSHOT.jar.original
+2026-04-10T21:40:13.9564459Z [INFO] ------------------------------------------------------------------------
+2026-04-10T21:40:13.9565815Z [INFO] BUILD SUCCESS
+2026-04-10T21:40:13.9566445Z [INFO] ------------------------------------------------------------------------
+2026-04-10T21:40:13.9572280Z [INFO] Total time:  4.676 s
+2026-04-10T21:40:13.9577711Z [INFO] Finished at: 2026-04-10T21:40:13Z
+2026-04-10T21:40:13.9578574Z [INFO] ------------------------------------------------------------------------

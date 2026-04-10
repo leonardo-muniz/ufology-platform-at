@@ -1,0 +1,34 @@
+﻿2026-04-10T21:40:04.3998011Z ##[group]Run actions/setup-java@v4
+2026-04-10T21:40:04.3998990Z with:
+2026-04-10T21:40:04.3999646Z   distribution: temurin
+2026-04-10T21:40:04.4000417Z   java-version: 21
+2026-04-10T21:40:04.4001129Z   cache: maven
+2026-04-10T21:40:04.4001818Z   java-package: jdk
+2026-04-10T21:40:04.4002765Z   check-latest: false
+2026-04-10T21:40:04.4003509Z   server-id: github
+2026-04-10T21:40:04.4004296Z   server-username: GITHUB_ACTOR
+2026-04-10T21:40:04.4005643Z   server-password: GITHUB_TOKEN
+2026-04-10T21:40:04.4006565Z   overwrite-settings: true
+2026-04-10T21:40:04.4007380Z   job-status: success
+2026-04-10T21:40:04.4008361Z   token: ***
+2026-04-10T21:40:04.4009026Z ##[endgroup]
+2026-04-10T21:40:04.6152271Z ##[group]Installed distributions
+2026-04-10T21:40:04.6388912Z Resolved Java 21.0.10+7 from tool-cache
+2026-04-10T21:40:04.6390811Z Setting Java 21.0.10+7 as the default
+2026-04-10T21:40:04.6404085Z Creating toolchains.xml for JDK version 21 from temurin
+2026-04-10T21:40:04.6482547Z Writing to /home/runner/.m2/toolchains.xml
+2026-04-10T21:40:04.6484019Z 
+2026-04-10T21:40:04.6484577Z Java configuration:
+2026-04-10T21:40:04.6486212Z   Distribution: temurin
+2026-04-10T21:40:04.6487602Z   Version: 21.0.10+7
+2026-04-10T21:40:04.6489553Z   Path: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.10-7/x64
+2026-04-10T21:40:04.6491316Z 
+2026-04-10T21:40:04.6492709Z ##[endgroup]
+2026-04-10T21:40:04.6513232Z Creating settings.xml with server-id: github
+2026-04-10T21:40:04.6516529Z Writing to /home/runner/.m2/settings.xml
+2026-04-10T21:40:04.8386348Z Cache hit for: setup-java-Linux-x64-maven-a6ec0cfb7493ad17117940d2037d4e4207a1da2a69451d3197b93365f2dcf962
+2026-04-10T21:40:05.9494003Z Received 88986202 of 88986202 (100.0%), 93.4 MBs/sec
+2026-04-10T21:40:05.9495274Z Cache Size: ~85 MB (88986202 B)
+2026-04-10T21:40:05.9532544Z [command]/usr/bin/tar -xf /home/runner/work/_temp/a9db9f06-02b7-452c-b910-3f4529cec8f4/cache.tzst -P -C /home/runner/work/ufology-platform-at/ufology-platform-at --use-compress-program unzstd
+2026-04-10T21:40:06.1636542Z Cache restored successfully
+2026-04-10T21:40:06.1682076Z Cache restored from key: setup-java-Linux-x64-maven-a6ec0cfb7493ad17117940d2037d4e4207a1da2a69451d3197b93365f2dcf962

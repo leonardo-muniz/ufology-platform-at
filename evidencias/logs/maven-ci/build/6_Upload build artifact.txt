@@ -1,0 +1,31 @@
+﻿2026-04-10T21:40:13.9893535Z ##[group]Run actions/upload-artifact@v4
+2026-04-10T21:40:13.9893854Z with:
+2026-04-10T21:40:13.9894037Z   name: maven-build
+2026-04-10T21:40:13.9894291Z   path: app-source/devops2026-ufoTracker/target/*.jar
+2026-04-10T21:40:13.9894593Z   retention-days: 7
+2026-04-10T21:40:13.9895148Z   if-no-files-found: warn
+2026-04-10T21:40:13.9895391Z   compression-level: 6
+2026-04-10T21:40:13.9895605Z   overwrite: false
+2026-04-10T21:40:13.9895809Z   include-hidden-files: false
+2026-04-10T21:40:13.9896035Z env:
+2026-04-10T21:40:13.9896341Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.10-7/x64
+2026-04-10T21:40:13.9896824Z   JAVA_HOME_21_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.10-7/x64
+2026-04-10T21:40:13.9897191Z ##[endgroup]
+2026-04-10T21:40:14.2075353Z With the provided path, there will be 1 file uploaded
+2026-04-10T21:40:14.2081763Z Artifact name is valid!
+2026-04-10T21:40:14.2083403Z Root directory input is valid!
+2026-04-10T21:40:14.3429988Z Beginning upload of artifact content to blob storage
+2026-04-10T21:40:15.0079771Z Uploaded bytes 8388608
+2026-04-10T21:40:15.3235523Z Uploaded bytes 16777216
+2026-04-10T21:40:15.4979383Z Uploaded bytes 25165824
+2026-04-10T21:40:15.7443369Z Uploaded bytes 33554432
+2026-04-10T21:40:16.0548512Z Uploaded bytes 41943040
+2026-04-10T21:40:16.2696215Z Uploaded bytes 50331648
+2026-04-10T21:40:16.5827154Z Uploaded bytes 58720256
+2026-04-10T21:40:16.6437495Z Uploaded bytes 59637588
+2026-04-10T21:40:16.6748191Z Finished uploading artifact content to blob storage!
+2026-04-10T21:40:16.6752115Z SHA256 digest of uploaded artifact zip is 736fe6a100e518db5c0d5644478534195ac8fd94ab4ee1e15cd8c90d0ecc3606
+2026-04-10T21:40:16.6753631Z Finalizing artifact upload
+2026-04-10T21:40:16.8071905Z Artifact maven-build.zip successfully finalized. Artifact ID 6380146341
+2026-04-10T21:40:16.8073222Z Artifact maven-build has been successfully uploaded! Final size is 59637588 bytes. Artifact ID is 6380146341
+2026-04-10T21:40:16.8080923Z Artifact download URL: https://github.com/leonardo-muniz/ufology-platform-at/actions/runs/24265412160/artifacts/6380146341

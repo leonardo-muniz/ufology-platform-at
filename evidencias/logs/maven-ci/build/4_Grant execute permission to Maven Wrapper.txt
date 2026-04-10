@@ -1,0 +1,7 @@
+﻿2026-04-10T21:40:06.1934537Z ##[group]Run chmod +x mvnw
+2026-04-10T21:40:06.1935171Z [36;1mchmod +x mvnw[0m
+2026-04-10T21:40:06.1963146Z shell: /usr/bin/bash -e {0}
+2026-04-10T21:40:06.1963463Z env:
+2026-04-10T21:40:06.1963814Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.10-7/x64
+2026-04-10T21:40:06.1964338Z   JAVA_HOME_21_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.10-7/x64
+2026-04-10T21:40:06.1965237Z ##[endgroup]
